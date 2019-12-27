@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712d1e35-d87c-42cf-9a17-93847cc8080e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-3-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-3-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +18,26 @@
     <ignored path="$PROJECT_DIR$/crowdfunding-admin-2-component/target/" />
     <ignored path="$PROJECT_DIR$/crowdfunding-admin-3-common/target/" />
     <ignored path="$PROJECT_DIR$/crowdfunding-admin-4-entity/target/" />
+    <ignored path="$PROJECT_DIR$/CrowdFundingSystem_reverse/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -28,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="258">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -37,31 +56,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="232">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-3-common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/test/java/com.lrh.crowd.funding.test/CrowdFundingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="38" lean-forward="true" selection-end-line="85" />
+            <state relative-caret-position="211">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>&lt;resultMap id=&quot;BaseResultMap&quot; type=&quot;com.lrh.crowd.funding.entity.Admin&quot;&gt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,11 +115,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crowdfunding-admin-4-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-3-common/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-4-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/CrowdFundingSystem_reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/CrowdFundingSystem_reverse/src/main/java/com/lrh/App.java" />
+        <option value="$PROJECT_DIR$/CrowdFundingSystem_reverse/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/CrowdFundingSystem_reverse/src/main/java/com/lrh/Generator.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/service/AdminMapper.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-mybatis.xml" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/test/java/com.lrh.crowd.funding.test/CrowdFundingTest.java" />
       </list>
     </option>
   </component>
@@ -91,15 +148,31 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="crowdfunding-admin-1-webui Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="y" value="65" />
+    <option name="y" value="75" />
     <option name="width" value="1935" />
     <option name="height" value="930" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -124,12 +197,41 @@
             <path>
               <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="crowdfunding-admin-3-common" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resoources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.lrh.crowd.funding.test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,9 +246,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\resoources\lib" />
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\resoources" />
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-2-component\src\main\java\com\lrh\crowd\funding" />
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-4-entity\src\main\java\com\lrh\crowd\funding" />
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\CrowdFundingSystem_reverse\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\resoources\mybatis\mapper" />
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\CrowdFundingSystem_reverse" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,6 +282,59 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.CrowdFundingTest">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lrh.Generator" />
+      <module name="CrowdFundingSystem_reverse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lrh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdFundingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crowdfunding-admin-1-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lrh.crowd.funding.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lrh.crowd.funding.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lrh.crowd.funding.test.CrowdFundingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdFundingTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crowdfunding-admin-1-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lrh.crowd.funding.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lrh.crowd.funding.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lrh.crowd.funding.test.CrowdFundingTest" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CrowdFundingTest" />
+        <item itemvalue="JUnit.CrowdFundingTest.testConnection" />
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -172,29 +347,63 @@
       <updated>1573541272616</updated>
       <workItem from="1573541274277" duration="407000" />
       <workItem from="1573541710919" duration="130000" />
-      <workItem from="1574643464365" duration="4873000" />
+      <workItem from="1574643464365" duration="11284000" />
+      <workItem from="1574669144732" duration="6020000" />
+      <workItem from="1574730024221" duration="3694000" />
+      <workItem from="1575248865152" duration="21656000" />
+      <workItem from="1575335434416" duration="17371000" />
+      <workItem from="1575421145982" duration="13011000" />
+      <workItem from="1576745237585" duration="10000" />
+      <workItem from="1577153930225" duration="10496000" />
+      <workItem from="1577240648057" duration="17388000" />
+      <workItem from="1577322199847" duration="12635000" />
+      <workItem from="1577344033783" duration="4501000" />
+      <workItem from="1577350265854" duration="2382000" />
+      <workItem from="1577407933973" duration="3495000" />
+      <workItem from="1577411482284" duration="2624000" />
+      <workItem from="1577414263584" duration="2110000" />
+      <workItem from="1577417742421" duration="1226000" />
+      <workItem from="1577425190881" duration="3278000" />
+      <workItem from="1577428507052" duration="1294000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CrowdFundingTest_testConnection - 2019.12.27 at 14h 29m 11s.xml">
+      <configuration name="CrowdFundingTest.testConnection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdFundingTest_testConnection - 2019.12.27 at 14h 33m 16s.xml">
+      <configuration name="CrowdFundingTest.testConnection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdFundingTest - 2019.12.27 at 14h 36m 37s.xml">
+      <configuration name="CrowdFundingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdFundingTest_testConnection - 2019.12.27 at 14h 43m 53s.xml">
+      <configuration name="CrowdFundingTest.testConnection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdFundingTest - 2019.12.27 at 14h 44m 19s.xml">
+      <configuration name="CrowdFundingTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5410000" />
+    <option name="totallyTimeSpent" value="135012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22587131" />
+      <window_info anchor="top" id="Ant Build" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3163539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09919571" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10082873" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0801105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,20 +412,27 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.12845305" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932975" weight="0.18093923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lrh/App.java">
@@ -226,45 +442,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/pom.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="17825">
+          <caret line="775" column="22" selection-start-line="775" selection-start-column="12" selection-end-line="775" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7107">
+          <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.pom" />
+    <entry file="file://$PROJECT_DIR$/CrowdFundingSystem_reverse/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/CrowdFundingSystem_reverse/src/main/java/com/lrh/Generator.java" />
+    <entry file="file://$PROJECT_DIR$/CrowdFundingSystem_reverse/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/AdminMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/AdminExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-3-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="92">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/AdminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="115">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="2" column="104" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/service/AdminMapper.java" />
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="38" lean-forward="true" selection-end-line="85" />
+        <state relative-caret-position="1908">
+          <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-tx.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-web-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/test/java/com.lrh.crowd.funding.test/CrowdFundingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>crowdfunding-admin-1-webui:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>crowdfunding-admin-1-webui</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

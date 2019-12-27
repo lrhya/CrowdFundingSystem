@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="crowdfunding-admin-2-component" />
-        <module name="crowdfunding-admin-3-common" />
         <module name="crowdfunding-admin-4-entity" />
         <module name="crowdfunding-admin-1-webui" />
+        <module name="crowdfunding-admin-3-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CrowdFundingSystem_reverse" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
