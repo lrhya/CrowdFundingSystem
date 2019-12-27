@@ -46,4 +46,11 @@ public class CrowdFundingTest {
         }
     }
 
+    @Test
+    public  void  testTx(){
+        adminService.updateAdmin();
+    }
+
+
+
 }
