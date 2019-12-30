@@ -5,6 +5,11 @@
          version="2.5">
 
   <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
 
   <!-- needed for ContextLoaderListener -->
   <context-param>

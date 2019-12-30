@@ -6,7 +6,6 @@ import com.lrh.crowd.funding.mapper.AdminMapper;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.test.annotation.Rollback;
 
 import java.util.List;
 
