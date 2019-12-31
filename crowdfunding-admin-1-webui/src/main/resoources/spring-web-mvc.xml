@@ -17,4 +17,10 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--   @RequestMapping("/admin/to/login/page")
+    public String toLoginPage(){
+    return "admin-login";
+    }   -->
+    <mvc:view-controller path="/admin/to/login/page.html" view-name="admin-login"></mvc:view-controller>
+    
 </beans>

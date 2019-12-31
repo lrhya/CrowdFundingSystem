@@ -20,6 +20,11 @@ public class AdminHandle {
     @Autowired
     private AdminService adminService;
 
+/*    @RequestMapping("/admin/to/login/page")
+    public String toLoginPage(){
+        return "admin-login";
+    }*/
+
     @RequestMapping("/admin/get/all")
     public String getAll(Model model) {
 
