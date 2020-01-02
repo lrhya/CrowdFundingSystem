@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712d1e35-d87c-42cf-9a17-93847cc8080e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-nav.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/exception/CrowdFundingExceptionResolve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-3-common/src/main/java/com/lrh/crowd/funding/CrowdFundingConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-3-common/src/main/java/com/lrh/crowd/funding/CrowdFundingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-3-common/src/test/java/com/lrh/crowd/funding/CrowdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-tx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-tx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-web-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-web-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/AdminHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/AdminHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-3-common/src/main/java/com/lrh/App.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,18 +52,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/PortalHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
@@ -106,20 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-login.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="621">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-head.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="21" lean-forward="true" selection-end-line="46" />
+            <state relative-caret-position="161">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -127,8 +102,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="230">
+              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -171,6 +155,7 @@
       <find>JDBC</find>
       <find>Roll</find>
       <find>登录</find>
+      <find>BBB</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -950,7 +935,7 @@
       <workItem from="1577754453803" duration="10872000" />
       <workItem from="1577926793042" duration="9376000" />
       <workItem from="1577943430452" duration="1079000" />
-      <workItem from="1577944547124" duration="503000" />
+      <workItem from="1577944547124" duration="1371000" />
     </task>
     <servers />
   </component>
@@ -987,7 +972,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184865000" />
+    <option name="totallyTimeSpent" value="185733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -1334,13 +1319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1379,17 +1357,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="230">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="21" lean-forward="true" selection-end-line="46" />
+        <state relative-caret-position="621">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
         </state>
       </provider>
     </entry>
