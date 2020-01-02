@@ -6,7 +6,7 @@
 
 
     <!-- 配置自动扫描的包 -->
-    <context:component-scan base-package="com.lrh.crowd.funding.handler"/>
+    <context:component-scan base-package="com.lrh.crowd.funding.handler,com.lrh.crowd.funding.exception"/>
 
     <!-- 配置SpringMVC标配：注解驱动 -->
     <mvc:annotation-driven/>
@@ -22,5 +22,23 @@
     return "admin-login";
     }   -->
     <mvc:view-controller path="/admin/to/login/page.html" view-name="admin-login"></mvc:view-controller>
-    
+    <mvc:view-controller path="/admin/to/main/page.html" view-name="admin-main"></mvc:view-controller>
+
+    <!-- 配置拦截器 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 设置当前拦截器要拦截的路径 -->
+            <mvc:mapping path="/**"/>
+
+            <!-- 设置要拦截的路径中的例外，也就是不拦截的路径 -->
+             <mvc:exclude-mapping path="/index.html"/>
+            <mvc:exclude-mapping path="/admin/to/login/page.html"/>
+            <mvc:exclude-mapping path="/admin/do/login.html"/>
+            <mvc:exclude-mapping path="/admin/logout.html"/>
+            <!-- 拦截器的bean -->
+            <bean class="com.lrh.crowd.funding.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+
 </beans>

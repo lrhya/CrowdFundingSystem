@@ -18,6 +18,7 @@
             <tx:method name="query*" read-only="true"/>
             <tx:method name="find*" read-only="true"/>
             <tx:method name="count*" read-only="true"/>
+            <tx:method name="login" read-only="true"/>
 
             <!-- 给增删改方法设置属性 -->
             <!-- propagation：配置传播行为，REQUIRES_NEW表示必须工作在自己新开的事务中，不受其他事务回滚影响 -->

@@ -104,6 +104,13 @@
             <artifactId>jackson-mapper-asl</artifactId>
         </dependency>
 
+        <!--<scope>中为provided或test是依赖不可传递，依赖只适用于当前项目-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
