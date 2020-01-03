@@ -9,6 +9,19 @@
     <result column="email" jdbcType="VARCHAR" property="email" />
     <result column="create_time" jdbcType="CHAR" property="createTime" />
   </resultMap>
+
+  <select id="selectAdminListByKeyword" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_admin
+    WHERE
+    login_acct LIKE CONCAT("%", #{keyword}, "%")
+    OR user_name LIKE CONCAT("%", #{keyword}, "%")
+    OR email LIKE CONCAT("%", #{keyword}, "%")
+     <!-- order by id desc -->
+  </select>
+
+
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">

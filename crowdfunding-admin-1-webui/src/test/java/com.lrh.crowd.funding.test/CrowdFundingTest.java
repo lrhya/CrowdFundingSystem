@@ -2,6 +2,7 @@ package com.lrh.crowd.funding.test;
 
 
 import com.lrh.crowd.funding.entity.Admin;
+import com.lrh.crowd.funding.mapper.AdminMapper;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,6 +32,28 @@ public class CrowdFundingTest {
 
     @Autowired
     private AdminService adminService;
+
+    @Autowired
+    private AdminMapper adminMapper;
+
+
+    @Test
+    public void batchSaveAdmin() {
+        for(int i = 0; i < 500; i++) {
+            adminMapper.insert(new Admin(null, "loginAcct"+i, "1111111", "userName"+i, "email"+i+"@qq.com", null));
+        }
+    }
+
+
+
+    @Test
+    public void testAdminMapperSearch(){
+        String keyword  ="";
+        List<Admin> adminList = adminMapper.selectAdminListByKeyword(keyword);
+        for (Admin admin: adminList) {
+            System.out.println(admin);
+        }
+    }
 
     @Test
     public void testConnection() throws SQLException {
