@@ -1,5 +1,6 @@
 package com.lrh.crowd.funding.handler;
 
+import com.github.pagehelper.PageInfo;
 import com.lrh.crowd.funding.CrowdFundingConstant;
 import com.lrh.crowd.funding.entity.Admin;
 import com.lrh.crowd.funding.service.api.AdminService;
@@ -27,6 +28,25 @@ public class AdminHandle {
 
         return "redirect:/index.html";
     }
+
+    @RequestMapping("/admin/query/for/search")
+    public String queryForSearch(
+            // 如果页面上没有提供对应的请求参数，那么可以使用defaultValue指定默认值
+            @RequestParam(value="pageNum", defaultValue="1") Integer pageNum,
+            @RequestParam(value="pageSize", defaultValue="10") Integer pageSize,
+            @RequestParam(value="keyword", defaultValue="") String keyword,
+            Model model) {
+
+        PageInfo<Admin> pageInfo = adminService.queryForKeywordSearch(pageNum, pageSize, keyword);
+
+        model.addAttribute(CrowdFundingConstant.ATTR_NAME_PAGE_INFO, pageInfo);
+
+        return "admin-page";
+    }
+
+
+
+
 
 
     @RequestMapping("admin/do/login")

@@ -1,5 +1,7 @@
 package com.lrh.crowd.funding.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.lrh.crowd.funding.CrowdFundingUtils;
 import com.lrh.crowd.funding.entity.Admin;
 import com.lrh.crowd.funding.entity.AdminExample;
@@ -72,4 +74,21 @@ public class AdminServiceImpl  implements AdminService {
         }
         return  null;
     }
+
+    @Override
+    public PageInfo<Admin> queryForKeywordSearch(Integer pageNum, Integer pageSize, String keyword) {
+
+
+        String orderBy = "id  ASC";//按照排序字段 顺序    “id   desc  ” 倒序
+        PageHelper.startPage(pageNum,pageSize,orderBy);
+        // 1.调用PageHelper的工具方法，开启分页功能
+        PageHelper.startPage(pageNum, pageSize);
+
+        // 2.执行分页查询
+        List<Admin> list = adminMapper.selectAdminListByKeyword(keyword);
+
+        // 3.将list封装到PageInfo对象中
+        return new PageInfo<>(list);
+    }
+
 }

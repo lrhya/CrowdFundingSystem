@@ -14,7 +14,6 @@
     <%@ include file="/WEB-INF/include-head.jsp"%>
     <link rel="stylesheet" href="css/pagination.css" />script
     <script type="text/javascript" src="script/jquery.pagination.js"></script>
-  <%--  <script type="text/javascript" src="script/my-admin.js"></script>--%>
     <script type="text/javascript">
         $(function() {
 
@@ -44,6 +43,7 @@
             $("#Pagination").pagination(totalRecord, paginationProperties);
         }
 
+
         // 在每一次点击“上一页”、“下一页”、“页码”时执行这个函数跳转页面
         function pageselectCallback(pageIndex, jq) {
 
@@ -51,10 +51,14 @@
             var pageNum = pageIndex + 1;
 
             // 跳转页面
-            window.location.href = "admin/query/for/search.html?pageNum="+pageNum;
+           // window.location.href = "admin/query/for/search.html?pageNum="+pageNum;
+            // 跳转页面，带查询条件的页面跳转
+            window.location.href = "admin/query/for/search.html?pageNum="+pageNum+"&keyword=${param.keyword}";
 
             return false;
         }
+
+
 
     </script>
 </head>
