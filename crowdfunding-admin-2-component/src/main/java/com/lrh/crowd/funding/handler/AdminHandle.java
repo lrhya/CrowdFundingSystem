@@ -3,12 +3,15 @@ package com.lrh.crowd.funding.handler;
 import com.github.pagehelper.PageInfo;
 import com.lrh.crowd.funding.CrowdFundingConstant;
 import com.lrh.crowd.funding.entity.Admin;
+import com.lrh.crowd.funding.entity.ResultEntity;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -20,6 +23,27 @@ import java.util.List;
  */
 @Controller
 public class AdminHandle {
+
+    // handler方法
+// 将当前handler方法的返回值作为响应体返回，不经过视图解析器
+    @ResponseBody
+    @RequestMapping("/admin/batch/remove")
+    public ResultEntity<String> batchRemove(@RequestBody List<Integer> adminIdList) {
+
+        try {
+
+            adminService.batchRemove(adminIdList);
+
+            return ResultEntity.successWithoutData();
+        }catch(Exception e) {
+
+            return ResultEntity.failed(null, e.getMessage());
+        }
+
+    }
+
+
+
 
     @RequestMapping("/admin/logout")
     public String logout(HttpSession session) {

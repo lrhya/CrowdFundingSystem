@@ -6,6 +6,8 @@ import com.lrh.crowd.funding.mapper.AdminMapper;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -14,6 +16,7 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+
 
 /**
  * @author lrhya
@@ -25,7 +28,6 @@ import java.util.List;
 @ContextConfiguration(locations= {"classpath:spring-persist-mybatis.xml","classpath:spring-persist-tx.xml"})
 
 public class CrowdFundingTest {
-
 
     @Autowired
     private DataSource dataSource;
@@ -43,7 +45,6 @@ public class CrowdFundingTest {
             adminMapper.insert(new Admin(null, "CCC"+i, "1111111", "userName"+i, "email"+i+"@qq.com", null));
         }
     }
-
 
 
     @Test
@@ -73,7 +74,5 @@ public class CrowdFundingTest {
     public  void  testTx(){
         adminService.updateAdmin();
     }
-
-
 
 }

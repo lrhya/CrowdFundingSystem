@@ -17,7 +17,12 @@ public interface AdminService {
 
     void updateAdmin();
 
+    //登录验证
     Admin login(String loginAcct, String userPswd);
 
+    //分页显示信息
     PageInfo<Admin> queryForKeywordSearch(Integer pageNum,Integer pageSize,String keyword);
+
+    //批量删除
+    void batchRemove(List<Integer> adminIdList);
 }

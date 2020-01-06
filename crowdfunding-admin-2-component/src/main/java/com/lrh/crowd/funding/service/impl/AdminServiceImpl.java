@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.lrh.crowd.funding.CrowdFundingUtils;
 import com.lrh.crowd.funding.entity.Admin;
 import com.lrh.crowd.funding.entity.AdminExample;
+import com.lrh.crowd.funding.entity.AdminExample.Criteria;
 import com.lrh.crowd.funding.mapper.AdminMapper;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -89,6 +90,28 @@ public class AdminServiceImpl  implements AdminService {
 
         // 3.将list封装到PageInfo对象中
         return new PageInfo<>(list);
+    }
+
+    @Override
+    public void batchRemove(List<Integer> adminIdList) {
+
+
+        // QBC：Query By Criteria
+
+        // 创建AdminExample对象（不要管Example单词是什么意思，它没有意思）
+        AdminExample adminExample = new AdminExample();
+
+        // 创建Criteria对象（不要管Criteria单词是什么意思，它没有意思）
+        // Criteria对象可以帮助我们封装查询条件
+        // 通过使用Criteria对象，可以把Java代码转换成SQL语句中WHERE子句里面的具体查询条件
+        Criteria criteria = adminExample.createCriteria();
+
+        // 针对要查询的字段封装具体的查询条件
+        criteria.andIdIn(adminIdList);
+
+        // 执行具体操作时把封装了查询条件的Example对象传入
+        adminMapper.deleteByExample(adminExample);
+
     }
 
 }
