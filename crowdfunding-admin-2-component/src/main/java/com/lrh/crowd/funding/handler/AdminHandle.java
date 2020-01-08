@@ -6,6 +6,7 @@ import com.lrh.crowd.funding.entity.Admin;
 import com.lrh.crowd.funding.entity.ResultEntity;
 import com.lrh.crowd.funding.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,22 +25,62 @@ import java.util.List;
 @Controller
 public class AdminHandle {
 
+
+    @RequestMapping("/admin/update")
+    public String updateAdmin(Admin admin) {
+
+        try {
+            adminService.updateAdmin(admin);
+        } catch (Exception e) {
+            e.printStackTrace();
+            if(e instanceof DuplicateKeyException) {
+                throw new RuntimeException(CrowdFundingConstant.MESSAGE_LOGIN_ACCT_ALREADY_IN_USE);
+            }
+        }
+        return "redirect:/admin/query/for/search.html";
+    }
+
+
+    @RequestMapping("/admin/to/edit/page")
+    public String toEditPage(@RequestParam("adminId") Integer adminId, Model model) {
+
+        Admin admin = adminService.getAdminById(adminId);
+
+        model.addAttribute("admin", admin);
+
+        return "admin-edit";
+    }
+
+
+
+    @RequestMapping("/admin/save")
+    public String saveAdmin(Admin admin) {
+        try {
+            adminService.saveAdmin(admin);
+        } catch (Exception e) {
+            e.printStackTrace();
+            if(e instanceof DuplicateKeyException) {
+                throw new RuntimeException(CrowdFundingConstant.MESSAGE_LOGIN_ACCT_ALREADY_IN_USE);
+            }
+        }
+        //return "redirect:/admin/query/for/search.html";
+        // 操作完成后立即看到新增的记录,跳转到分页页面时前往最后一页
+        return "redirect:/admin/query/for/search.html?pageNum="+Integer.MAX_VALUE;
+    }
+
+
+
     // handler方法
 // 将当前handler方法的返回值作为响应体返回，不经过视图解析器
     @ResponseBody
     @RequestMapping("/admin/batch/remove")
     public ResultEntity<String> batchRemove(@RequestBody List<Integer> adminIdList) {
-
         try {
-
             adminService.batchRemove(adminIdList);
-
             return ResultEntity.successWithoutData();
         }catch(Exception e) {
-
             return ResultEntity.failed(null, e.getMessage());
         }
-
     }
 
 
@@ -67,10 +108,6 @@ public class AdminHandle {
 
         return "admin-page";
     }
-
-
-
-
 
 
     @RequestMapping("admin/do/login")

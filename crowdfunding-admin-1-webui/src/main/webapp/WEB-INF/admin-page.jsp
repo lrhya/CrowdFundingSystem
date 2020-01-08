@@ -10,10 +10,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="UTF-8">
+
 <head>
     <%@ include file="/WEB-INF/include-head.jsp" %>
     <link rel="stylesheet" href="css/pagination.css"/>
-    script
     <script type="text/javascript" src="script/jquery.pagination.js"></script>
     <script type="text/javascript" src="script/my-admin.js"></script>
     <script type="text/javascript">

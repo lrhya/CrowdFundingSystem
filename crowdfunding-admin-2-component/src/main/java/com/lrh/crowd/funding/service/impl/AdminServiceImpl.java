@@ -114,4 +114,39 @@ public class AdminServiceImpl  implements AdminService {
 
     }
 
+
+    @Override
+    public void saveAdmin(Admin admin) {
+
+        // 对密码进行加密
+        String userPswd = admin.getUserPswd();
+        userPswd = CrowdFundingUtils.md5(userPswd);
+        admin.setUserPswd(userPswd);
+
+        // 执行保存
+        adminMapper.insert(admin);
+
+    }
+
+    @Override
+    public Admin getAdminById(Integer adminId) {
+        return adminMapper.selectByPrimaryKey(adminId);
+    }
+
+
+    @Override
+    public void updateAdmin(Admin admin) {
+
+        // 对密码进行加密
+        String userPswd = admin.getUserPswd();
+        userPswd = CrowdFundingUtils.md5(userPswd);
+        admin.setUserPswd(userPswd);
+
+        // 执行更新
+        adminMapper.updateByPrimaryKey(admin);
+    }
+
+
+
+
 }

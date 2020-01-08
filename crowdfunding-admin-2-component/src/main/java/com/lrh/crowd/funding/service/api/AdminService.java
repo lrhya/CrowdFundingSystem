@@ -25,4 +25,10 @@ public interface AdminService {
 
     //批量删除
     void batchRemove(List<Integer> adminIdList);
+
+    void saveAdmin(Admin admin);
+
+    Admin getAdminById(Integer adminId);
+
+    void updateAdmin(Admin admin);
 }
