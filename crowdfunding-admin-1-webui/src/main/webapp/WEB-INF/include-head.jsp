@@ -43,4 +43,5 @@
 		});
 	});
 </script>
+	<script type="text/javascript" src="layer/layer.js"></script>
 </head>
