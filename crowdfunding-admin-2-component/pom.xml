@@ -8,24 +8,26 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+<!--现在有了，没有就要加，此时不出问题，彼时就出了，至于是 jar 还是 war 看项目需求
+    例如 entity 模块，应该打 jar 包
+    负责页面交互要部署到servlet容器里面的就打war包
+    嗯嗯好的知道了  -->
+    <packaging>jar</packaging>
 
     <artifactId>crowdfunding-admin-2-component</artifactId>
 
     <name>crowdfunding-admin-2-component</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
+<!--    这个不需要打包？  <properties>--> <!--父亲写了这个东西，子 pom 会继承，你要是在子类个性化配置的话可以打开，无所谓，我觉得碍眼就注释了-->
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+<!--        <maven.compiler.source>1.7</maven.compiler.source>-->
+<!--        <maven.compiler.target>1.7</maven.compiler.target>-->
+<!--    </properties>-->
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
             <scope>test</scope>
         </dependency>
         <!--Component依赖Common-->

@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/crowdfunding-admin-1-webui" />
+    <file type="web" url="file://$PROJECT_DIR$/crowdfunding-admin-2-component" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

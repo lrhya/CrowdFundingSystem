@@ -6,8 +6,13 @@
 
     <groupId>com.lrh</groupId>
     <artifactId>CrowdFundingSystem</artifactId>
+
+    <!--    必须是 pom -->
     <packaging>pom</packaging>
+
     <version>1.0-SNAPSHOT</version>
+
+<!--    必须声明儿子-->
     <modules>
         <module>crowdfunding-admin-1-webui</module>
         <module>crowdfunding-admin-2-component</module>
@@ -18,23 +23,25 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
     <name>CrowdFundingSystem</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
+<!--        基于 1.8 编译源码-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
         <spring.version>4.3.2.RELEASE</spring.version>
     </properties>
 
+<!--    dependencyManagement 的意思是只声明，不使用，你可以看到这里的各个依赖和上面的 dependencies
+    很像，但是 dependencies 引入就使用，dependencyManagement 只负责声明，不会添加到class path里面
+-->
     <dependencyManagement>
         <dependencies>
 
@@ -58,6 +65,7 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+<!--            就是这里-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
