@@ -48,11 +48,11 @@
 
 <!--        例如儿子现在要添加属于自己的以来 lombok -->
 <!--        这样做，该依赖的作用域只在本工程里面，不会影响父亲以及其他兄弟-->
-        <dependency>
+<!--        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
-        </dependency>
+        </dependency>-->
 <!--        <dependency>-->
 <!--            <groupId>junit</groupId>-->
 <!--            <artifactId>junit</artifactId>-->
