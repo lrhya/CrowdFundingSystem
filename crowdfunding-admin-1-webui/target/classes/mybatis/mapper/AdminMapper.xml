@@ -10,16 +10,7 @@
     <result column="create_time" jdbcType="CHAR" property="createTime" />
   </resultMap>
 
-  <select id="selectAdminListByKeyword" resultMap="BaseResultMap">
-    select
-    <include refid="Base_Column_List" />
-    from t_admin
-    WHERE
-    login_acct LIKE CONCAT("%", #{keyword}, "%")
-    OR user_name LIKE CONCAT("%", #{keyword}, "%")
-    OR email LIKE CONCAT("%", #{keyword}, "%")
-     <!-- order by id desc -->
-  </select>
+
 
 
   <sql id="Example_Where_Clause">
@@ -83,6 +74,18 @@
   <sql id="Base_Column_List">
     id, login_acct, user_pswd, user_name, email, create_time
   </sql>
+
+  <select id="selectAdminListByKeyword" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_admin
+    WHERE
+    login_acct LIKE CONCAT("%", #{keyword}, "%")
+    OR user_name LIKE CONCAT("%", #{keyword}, "%")
+    OR email LIKE CONCAT("%", #{keyword}, "%")
+    <!-- order by id desc -->
+  </select>
+
   <select id="selectByExample" parameterType="com.lrh.crowd.funding.entity.AdminExample" resultMap="BaseResultMap">
     select
     <if test="distinct">

@@ -5,6 +5,7 @@ import com.lrh.crowd.funding.CrowdFundingConstant;
 import com.lrh.crowd.funding.entity.Admin;
 import com.lrh.crowd.funding.entity.ResultEntity;
 import com.lrh.crowd.funding.service.api.AdminService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Controller;
@@ -23,8 +24,10 @@ import java.util.List;
  * @date 2019/12/27 16:14
  */
 @Controller
-public class AdminHandle {
+public class AdminHandler {
 
+    @Autowired
+    private AdminService adminService;
 
     @RequestMapping("/admin/update")
     public String updateAdmin(Admin admin) {
@@ -130,8 +133,7 @@ public class AdminHandle {
     }
 
 
-    @Autowired
-    private AdminService adminService;
+
 
 /*    @RequestMapping("/admin/to/login/page")
     public String toLoginPage(){

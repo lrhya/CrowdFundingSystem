@@ -61,9 +61,4 @@
         <property name="basePackage" value="com.lrh.crowd.funding.mapper"/>
     </bean>
 
-
-
-
-
-
 </beans>
