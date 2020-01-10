@@ -233,7 +233,7 @@
                         "type":"post",
                         "data":{
                             "id":window.roleId,
-                            "roleName":roleName
+                            "nameame":roleName
                         },
                         "dataType":"json",
                         "success":function(response){

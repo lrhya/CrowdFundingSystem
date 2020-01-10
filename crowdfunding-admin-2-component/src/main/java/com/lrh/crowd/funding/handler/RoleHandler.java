@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -26,6 +27,17 @@ public class RoleHandler {
     @Autowired
    private RoleService roleService;
 
+    @ResponseBody
+    @RequestMapping("/role/update/role")
+    public ResultEntity<String> updateRole(Role role, HttpServletRequest request) {
+
+        System.out.println("请求体中的值：" + request.getParameter("tId"));
+        System.out.println("请求体中的值：" + request.getParameter("tName"));
+        System.out.println("将要更新的员工数据：" + role);
+        roleService.updateRole(role);
+
+        return ResultEntity.successWithoutData();
+    }
 
 
 

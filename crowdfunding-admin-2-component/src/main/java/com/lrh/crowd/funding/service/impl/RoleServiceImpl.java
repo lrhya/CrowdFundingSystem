@@ -29,6 +29,12 @@ public class RoleServiceImpl implements RoleService {
 
 
 
+    @Override
+    public void updateRole(Role role) {
+        roleMapper.updateByPrimaryKeySelective(role);
+    }
+
+
 
     @Override
     public void saveRole(String roleName) {
