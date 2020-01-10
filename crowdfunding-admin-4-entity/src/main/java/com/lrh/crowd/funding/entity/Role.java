@@ -5,6 +5,22 @@ public class Role {
 
     private String tName;
 
+    public Role() {
+    }
+
+    public Role(Integer tId, String tName) {
+        this.tId = tId;
+        this.tName = tName;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "tId=" + tId +
+                ", tName='" + tName + '\'' +
+                '}';
+    }
+
     public Integer gettId() {
         return tId;
     }

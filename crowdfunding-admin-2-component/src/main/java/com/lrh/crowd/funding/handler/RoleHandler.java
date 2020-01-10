@@ -28,6 +28,20 @@ public class RoleHandler {
 
 
 
+
+
+    @ResponseBody
+    @RequestMapping("/role/save/role")
+    public ResultEntity<String> saveRole(@RequestParam("roleName") String roleName) {
+
+        roleService.saveRole(roleName);
+
+        return ResultEntity.successWithoutData();
+    }
+
+
+
+
     @ResponseBody
     @RequestMapping("/role/batch/remove")
     public ResultEntity<String> batchRemove(@RequestBody List<Integer> roleIdList) {

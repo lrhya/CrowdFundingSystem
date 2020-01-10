@@ -140,6 +140,65 @@
                 });
 
 
+                $("#addBtn").click(function(){
+
+                    $("#addModal").modal("show");
+
+                });
+
+
+
+                $("#addModalBtn").click(function(){
+
+                    // 1.收集文本框内容
+                    var roleName = $.trim($("#roleNameInput").val());
+
+                    if(roleName == null || roleName == "") {
+                        layer.msg("请输入有效角色名称！");
+                        return ;
+                    }
+
+                    // 2.发送请求
+                    $.ajax({
+                        "url":"role/save/role.json",
+                        "type":"post",
+                        "data":{
+                            "roleName":roleName
+                        },
+                        "dataType":"json",
+                        "success":function(response){
+
+                            var result = response.result;
+
+                            if(result == "SUCCESS") {
+                                layer.msg("操作成功！");
+
+                                // 3.操作成功重新分页
+                                // 前往最后一页
+                                window.pageNum = 999999;
+                                showPage();
+                            }
+
+                            if(result == "FAILED") {
+                                layer.msg(response.message);
+                            }
+
+                            // 4.不管成功还是失败，关闭模态框
+                            $("#addModal").modal("hide");
+
+                            // 5.清理本次在文本框填写的数据
+                            $("#roleNameInput").val("");
+
+                        },
+                        "error":function(response){
+                            layer.msg(response.message);
+                        }
+                    });
+
+                });
+
+
+
                 //编辑更新按钮
                 $("#roleTableBody").on("click",".editBtn",function(){
 
@@ -154,6 +213,48 @@
 
                     // 4.打开模态框
                     $("#editModal").modal("show");
+                });
+
+
+                $("#editModalBtn").click(function(){
+
+                    // 1.获取文本框值
+                    var roleName = $.trim($("#roleNameInputEdit").val());
+
+                    if(roleName == null || roleName == "") {
+                        layer.msg("请输入有效角色名称！");
+
+                        return ;
+                    }
+
+                    // 2.发送请求
+                    $.ajax({
+                        "url":"role/update/role.json",
+                        "type":"post",
+                        "data":{
+                            "id":window.roleId,
+                            "roleName":roleName
+                        },
+                        "dataType":"json",
+                        "success":function(response){
+                            var result = response.result;
+
+                            if(result == "SUCCESS") {
+                                layer.msg("操作成功！");
+
+                                // 3.操作成功重新分页
+                                showPage();
+                            }
+
+                            if(result == "FAILED") {
+                                layer.msg(response.message);
+                            }
+
+                            // 4.不管成功还是失败，关闭模态框
+                            $("#editModal").modal("hide");
+
+                        }
+                    });
                 });
 
 
@@ -252,6 +353,7 @@
     </div>
 </div>
 <%@ include file="/WEB-INF/include-modal-role-confirm.jsp" %>
+<%@ include file="/WEB-INF/include-modal-role-add.jsp" %>
 <%@ include file="/WEB-INF/include-modal-role-edit.jsp" %>
 </body>
 </html>

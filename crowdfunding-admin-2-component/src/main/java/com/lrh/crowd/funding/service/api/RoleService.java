@@ -13,6 +13,10 @@ import java.util.List;
 public interface RoleService {
 
 
+
+
+    void saveRole(String roleName);
+
     void batchRemove(List<Integer> roleIdList);
 
     List<Role> getRoleListByIdList(List<Integer> roleIdList);

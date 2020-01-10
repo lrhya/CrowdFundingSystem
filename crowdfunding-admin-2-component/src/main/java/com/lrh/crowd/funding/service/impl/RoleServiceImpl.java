@@ -26,6 +26,15 @@ public class RoleServiceImpl implements RoleService {
     @Autowired
     private RoleMapper roleMapper;
 
+
+
+
+
+    @Override
+    public void saveRole(String roleName) {
+        roleMapper.insert(new Role(null, roleName));
+    }
+
     @Override
     public void batchRemove(List<Integer> roleIdList) {
 
