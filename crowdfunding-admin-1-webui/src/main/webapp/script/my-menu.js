@@ -21,14 +21,14 @@ function showMyIcon(treeId, treeNode) {
 	console.log(treeNode);
 }
 
-/*
+
 function initWholeTree() {
 	// setting对象中包含zTree的设置属性
 	var setting = {
 		"view": {
 			"addDiyDom": showMyIcon,
-			"addHoverDom": addHoverDom,
-			"removeHoverDom": removeHoverDom
+		/*	"addHoverDom": addHoverDom,
+			"removeHoverDom": removeHoverDom*/
 		},
 		"data": {
 			"key": {
@@ -65,6 +65,7 @@ function initWholeTree() {
 	});
 }
 
+/*
 // 在鼠标移入节点范围时添加自定义控件
 function addHoverDom(treeId, treeNode) {
 	
