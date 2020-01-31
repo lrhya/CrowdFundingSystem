@@ -20,7 +20,11 @@
         $(document).ready(function(){
 
         //setting对象中包含zTree的设置属性
-            var setting = {};
+            var setting = {
+                "view": {
+                    "addDiyDom": showMyIcon
+                }
+            };
 
             // 发送Ajax请求获取zNodes数据
             $.ajax({
