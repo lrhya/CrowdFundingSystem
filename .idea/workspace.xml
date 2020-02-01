@@ -8,8 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712d1e35-d87c-42cf-9a17-93847cc8080e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,12 +55,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="321">
+              <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="e#3185#3722#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -61,41 +69,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-role-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="253">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-nav.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/index-page.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/role-page.jsp">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="242">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#removeMenu#0;class#MenuHandler#0" />
+                <element signature="method#getMenuById#0;class#MenuHandler#0" />
+                <element signature="method#getWholeTree#0;class#MenuHandler#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/MenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="17" lean-forward="true" selection-end-line="82" />
+            <state relative-caret-position="312">
+              <caret line="209" column="9" lean-forward="true" selection-end-line="209" selection-end-column="9" />
+              <folding>
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#2;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+                <element signature="n#update#2;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,14 +157,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="244">
+              <caret line="177" column="4" lean-forward="true" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
               <folding>
+                <element signature="n#!!block;n#showMyIcon#0" />
+                <element signature="n#!!block;n#initWholeTree#0" />
                 <element signature="n#!!block;n#addHoverDom#0" />
                 <element signature="n#!!block;n#removeHoverDom#0" />
-                <element signature="n#!!block;n#generateBtnGrp#0" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#138#144#0" expanded="true" />
+                <element signature="e#144#150#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#138#144#0" expanded="true" />
+                <element signature="e#144#150#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#141#147#0" expanded="true" />
+                <element signature="e#147#153#0" expanded="true" />
                 <element signature="n#!!block;n#showAddModal#0" />
-                <element signature="n#!!block;n#showEditModal#0" />
                 <element signature="n#!!block;n#showConfirmModal#0" />
               </folding>
             </state>
@@ -118,19 +181,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="-667">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-head.jsp">
+        <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-confirm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -174,6 +237,8 @@
       <find>.editBtn</find>
       <find>updateByPrimaryKey</find>
       <find>selectByPrimaryKey</find>
+      <find>menuAddBtn</find>
+      <find>menuId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,9 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crowdfunding-admin-3-common/src/test/java/com/lrh/crowd/funding/CrowdTest.java" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-persist-tx.xml" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-3-common/src/main/java/com/lrh/crowd/funding/CrowdFundingConstant【瑞客 论坛 www.ruike1.com  】.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-3-common/src/main/java/com/lrh/crowd/funding/CrowdFundingUtils.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/exception/CrowdFundingExceptionResolever.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/interceptor/LoginInterceptor.java" />
@@ -224,15 +286,18 @@
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/role-page.jsp" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/MenuMapper.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/Menu.java" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/spring-web-mvc.xml" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-head.jsp" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" />
-        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-add.jsp" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-confirm.jsp" />
         <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js" />
+        <option value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml" />
       </list>
     </option>
   </component>
@@ -263,7 +328,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="75" />
     <option name="width" value="1935" />
     <option name="height" value="930" />
@@ -280,8 +345,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,7 +386,35 @@
               <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resoources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resoources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -340,6 +433,154 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrowdFundingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lrh" type="462c0819:PsiDirectoryNode" />
+              <item name="crowd" type="462c0819:PsiDirectoryNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CrowdFundingSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -434,7 +675,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -445,11 +686,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\webapp\script" />
       <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\resoources\mybatis\mapper" />
       <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-4-entity\src\main\java\com\lrh\crowd\funding\entity" />
       <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\webapp\jquery" />
-      <recent name="C:\Users\Chris\IdeaProjects\CrowdFundingSystem\crowdfunding-admin-1-webui\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lrh.crowd.funding.mapper" />
@@ -713,7 +954,11 @@
       <workItem from="1579598376801" duration="389000" />
       <workItem from="1579669462684" duration="26000" />
       <workItem from="1580444427232" duration="6031000" />
-      <workItem from="1580451745098" duration="5068000" />
+      <workItem from="1580451745098" duration="6352000" />
+      <workItem from="1580526059169" duration="1546000" />
+      <workItem from="1580527653842" duration="948000" />
+      <workItem from="1580528649032" duration="354000" />
+      <workItem from="1580529133206" duration="4446000" />
     </task>
     <servers />
   </component>
@@ -750,14 +995,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275544000" />
+    <option name="totallyTimeSpent" value="284122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Ant Build" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.27479893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -767,8 +1012,8 @@
       <window_info id="Web" order="7" sideWeight="0.5010571" side_tool="true" weight="0.2660858" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.10082873" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.26519337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29972374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.25552487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.65883976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -858,31 +1103,6 @@
     <SUITE FILE_PATH="coverage/CrowdFundingSystem$Tomcat_9_0_22.ic" NAME="Tomcat 9.0.22 Coverage Results" MODIFIED="1578017869085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/ResultEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1008,16 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-role.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/jquery/jquery-1.12.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1052,29 +1262,6 @@
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-4-entity/src/main/java/com/lrh/crowd/funding/entity/MenuExample.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="210" column="9" lean-forward="true" selection-start-line="210" selection-start-column="9" selection-end-line="210" selection-end-column="9" />
-          <folding>
-            <element signature="n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#sql#2;n#mapper#0;n#!!top" />
-            <element signature="n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#1;n#mapper#0;n#!!top" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" />
-            <element signature="n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#update#3;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1097,30 +1284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1163,35 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/RoleHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MenuHandler#0" />
-            <element signature="e#1775#2857#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,10 +1381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-role-add.jsp">
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="299">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1256,52 +1394,180 @@
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/index-page.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp">
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-role.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="2254">
+          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/RoleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/role-page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="267">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+          <folding>
+            <element signature="e#857#1390#0#HTML" />
+            <element signature="e#1472#1696#0#HTML" />
+            <element signature="e#1789#2617#0#HTML" />
+            <element signature="e#2717#3887#0#HTML" />
+            <element signature="e#3908#3952#0#HTML" />
+            <element signature="e#4084#4430#0#HTML" />
+            <element signature="e#4480#4551#0#HTML" />
+            <element signature="e#4607#6184#0#HTML" />
+            <element signature="e#6283#6733#0#HTML" />
+            <element signature="e#6789#8078#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js">
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-role-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!block;n#addHoverDom#0" />
-            <element signature="n#!!block;n#removeHoverDom#0" />
-            <element signature="n#!!block;n#generateBtnGrp#0" />
-            <element signature="n#!!block;n#showAddModal#0" />
-            <element signature="n#!!block;n#showEditModal#0" />
-            <element signature="n#!!block;n#showConfirmModal#0" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-modal-menu-confirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/WEB-INF/menu-page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="17" lean-forward="true" selection-end-line="82" />
+        <state relative-caret-position="321">
+          <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <folding>
+            <element signature="e#3185#3722#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/webapp/script/my-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="177" column="4" lean-forward="true" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#showMyIcon#0" />
+            <element signature="n#!!block;n#initWholeTree#0" />
+            <element signature="n#!!block;n#addHoverDom#0" />
+            <element signature="n#!!block;n#removeHoverDom#0" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#138#144#0" expanded="true" />
+            <element signature="e#144#150#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#138#144#0" expanded="true" />
+            <element signature="e#144#150#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#141#147#0" expanded="true" />
+            <element signature="e#147#153#0" expanded="true" />
+            <element signature="n#!!block;n#showAddModal#0" />
+            <element signature="n#!!block;n#showConfirmModal#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/handler/MenuHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#removeMenu#0;class#MenuHandler#0" />
+            <element signature="method#getMenuById#0;class#MenuHandler#0" />
+            <element signature="method#getWholeTree#0;class#MenuHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/api/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-2-component/src/main/java/com/lrh/crowd/funding/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdfunding-admin-1-webui/src/main/resoources/mybatis/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="209" column="9" lean-forward="true" selection-end-line="209" selection-end-column="9" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
