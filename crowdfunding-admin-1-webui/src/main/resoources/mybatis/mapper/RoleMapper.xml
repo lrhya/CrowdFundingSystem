@@ -170,4 +170,40 @@
     set t_name = #{tName,jdbcType=VARCHAR}
     where t_id = #{tId,jdbcType=INTEGER}
   </update>
+  <select id="selectAssignedRoleList" resultMap="BaseResultMap">
+	SELECT
+		r.t_id,
+		r.t_name
+	FROM
+		t_role r
+	LEFT JOIN inner_admin_role ar ON r.t_id = ar.role_id
+	WHERE
+		ar.admin_id = #{adminId}
+</select>
+  <select id="selectUnAssignedRoleList" resultMap="BaseResultMap">
+	SELECT
+		t_id,
+		t_name
+	FROM
+		t_role
+	WHERE
+		t_id NOT IN (
+			SELECT
+				role_id
+			FROM
+				inner_admin_role
+			WHERE
+				admin_id = #{adminId}
+		)
+</select>
+
+  <delete id="deleteOldAdminRelationship">
+		delete from inner_admin_role where admin_id=#{adminId}
+	</delete>
+  <insert id="insertNewAdminRelationship">
+    insert into inner_admin_role(admin_id,role_id)
+    values
+    <foreach collection="roleIdList" item="roleId" separator=",">(#{adminId},#{roleId})</foreach>
+  </insert>
+
 </mapper>

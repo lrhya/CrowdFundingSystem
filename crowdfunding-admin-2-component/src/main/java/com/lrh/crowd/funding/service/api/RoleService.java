@@ -25,4 +25,10 @@ public interface RoleService {
             Integer pageNum,
             Integer pageSize,
             String keyword);
+
+    List<Role> getAssignedRoleList(Integer adminId);
+
+    List<Role> getUnAssignedRoleList(Integer adminId);
+
+    void updateRelationship(Integer adminId, List<Integer> roleIdList);
 }

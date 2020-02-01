@@ -1,6 +1,7 @@
 package com.lrh.crowd.funding.service.impl;
 
 
+import com.lrh.crowd.funding.CrowdFundingUtils;
 import com.lrh.crowd.funding.entity.Role;
 import com.lrh.crowd.funding.entity.RoleExample;
 import com.lrh.crowd.funding.mapper.RoleMapper;
@@ -83,6 +84,35 @@ public class RoleServiceImpl implements RoleService {
 
         // 3.封装为PageInfo对象
         return new PageInfo<>(list);
+    }
+
+    @Override
+    public List<Role> getAssignedRoleList(Integer adminId) {
+
+        List<Role> roleList = roleMapper.selectAssignedRoleList(adminId);
+
+        return roleList;
+    }
+
+    @Override
+    public List<Role> getUnAssignedRoleList(Integer adminId) {
+
+        List<Role> roleList = roleMapper.selectUnAssignedRoleList(adminId);
+
+        return roleList;
+    }
+
+    @Override
+    public void updateRelationship(Integer adminId, List<Integer> roleIdList) {
+
+        // 1.删除全部旧数据
+        roleMapper.deleteOldAdminRelationship(adminId);
+
+        // 2.保存全部新数据
+        if(CrowdFundingUtils.collectionEffective(roleIdList)) {
+            roleMapper.insertNewAdminRelationship(adminId, roleIdList);
+        }
+
     }
 
 
