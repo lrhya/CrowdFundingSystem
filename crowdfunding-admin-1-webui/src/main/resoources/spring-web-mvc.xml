@@ -6,7 +6,10 @@
 
 
     <!-- 配置自动扫描的包 -->
-    <context:component-scan base-package="com.lrh.crowd.funding.handler,com.lrh.crowd.funding.exception"/>
+    <context:component-scan base-package=
+                                    "com.lrh.crowd.funding.handler,com.lrh.crowd.funding.exception
+                                      ,com.lrh.crowd.funding.handler,com.lrh.crowd.funding.config
+,com.lrh.crowd.funding.handler,com.lrh.crowd.funding.service"/>
 
     <!-- 配置SpringMVC标配：注解驱动 -->
     <mvc:annotation-driven/>
@@ -26,21 +29,22 @@
     <mvc:view-controller path="/admin/to/add/page.html" view-name="admin-add"></mvc:view-controller>
     <mvc:view-controller path="/role/to/page.html" view-name="role-page"></mvc:view-controller>
     <mvc:view-controller path="/menu/to/page.html" view-name="menu-page"></mvc:view-controller>
-    <!-- 配置拦截器 -->
+
+<!--    &lt;!&ndash; 配置拦截器 &ndash;&gt;
     <mvc:interceptors>
         <mvc:interceptor>
-            <!-- 设置当前拦截器要拦截的路径 -->
+            &lt;!&ndash; 设置当前拦截器要拦截的路径 &ndash;&gt;
             <mvc:mapping path="/**"/>
 
-            <!-- 设置要拦截的路径中的例外，也就是不拦截的路径 -->
+            &lt;!&ndash; 设置要拦截的路径中的例外，也就是不拦截的路径 &ndash;&gt;
              <mvc:exclude-mapping path="/index.html"/>
             <mvc:exclude-mapping path="/admin/to/login/page.html"/>
             <mvc:exclude-mapping path="/admin/do/login.html"/>
             <mvc:exclude-mapping path="/admin/logout.html"/>
-            <!-- 拦截器的bean -->
+            &lt;!&ndash; 拦截器的bean &ndash;&gt;
             <bean class="com.lrh.crowd.funding.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
-    </mvc:interceptors>
+    </mvc:interceptors>-->
 
 
 </beans>
