@@ -61,10 +61,10 @@ public class CrowdFundingUserDetailsService implements UserDetailsService {
         String userPswd = admin.getUserPswd();
 
         // 7.封装角色、权限信息
-        List<GrantedAuthority> authorities = AuthorityUtils.createAuthorityList("ROLE_学生","ROLE_班长","扫地");
+     /*   List<GrantedAuthority> authorities = AuthorityUtils.createAuthorityList("ROLE_学生","ROLE_班长","扫地");*/
 
 
-/*        // [1]封装角色信息
+        // [1]封装角色信息
         // ①创建存储角色、权限信息的集合
         List<GrantedAuthority> authorities = new ArrayList();
 
@@ -103,9 +103,10 @@ public class CrowdFundingUserDetailsService implements UserDetailsService {
             // ④创建SimpleGrantedAuthority对象存入集合
             authorities.add(new SimpleGrantedAuthority(authName));
 
-        }*/
+        }
 
         // 8.返回User对象
-        return new User(username,userPswd, authorities);
+       /* return new User(username,userPswd, authorities);*/
+        return new SecurityAdmin(admin, authorities);
     }
 }

@@ -207,8 +207,16 @@
     <foreach collection="authIdList" item="authId" separator=",">(#{roleId},#{authId})</foreach>
   </insert>
 
-
-
-
+  <select id="selectAuthListByAdminId" resultMap="BaseResultMap">
+		SELECT
+			a.id,
+			a.`NAME`
+		FROM
+			t_auth a
+		LEFT JOIN inner_role_auth ra ON ra.auth_id = a.id
+		LEFT JOIN inner_admin_role ar ON ra.role_id = ar.role_id
+		WHERE
+			ar.admin_id = #{adminId}
+	</select>
 
 </mapper>

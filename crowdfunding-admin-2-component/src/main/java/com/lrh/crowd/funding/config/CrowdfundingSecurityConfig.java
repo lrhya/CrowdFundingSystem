@@ -1,6 +1,7 @@
 package com.lrh.crowd.funding.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -8,6 +9,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * @author lrhya
@@ -23,6 +25,13 @@ public class CrowdfundingSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+    // Spring在真正调用这个方法前会检查，IOC容器中是否已经有了对应的bean，
+    // 如果有，则不会真正调用这个方法。而是直接把IOC容器中的bean返回。
+    @Bean
+    public BCryptPasswordEncoder getPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
     @Override
     protected void configure(AuthenticationManagerBuilder builder) throws Exception {
 
@@ -32,7 +41,8 @@ public class CrowdfundingSecurityConfig extends WebSecurityConfigurerAdapter {
 			.withUser("xixi")
 			.password("12323")
 			.roles("king");*/
-        builder.userDetailsService(userDetailsService);
+      /*  builder.userDetailsService(userDetailsService);*/
+        builder.userDetailsService(userDetailsService).passwordEncoder(getPasswordEncoder());
     }
 
     @Override
