@@ -7,6 +7,7 @@ import com.lrh.crowd.funding.entity.Role;
 
 import com.lrh.crowd.funding.service.api.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -73,7 +74,8 @@ public class RoleHandler {
         return ResultEntity.successWithData(roleList);
     }
 
-
+    // SpEL表达式
+    @PreAuthorize("hasAuthority('role:get')")
     @ResponseBody
     @RequestMapping("/role/search/by/keyword")
     public ResultEntity<PageInfo<Role>> search(
