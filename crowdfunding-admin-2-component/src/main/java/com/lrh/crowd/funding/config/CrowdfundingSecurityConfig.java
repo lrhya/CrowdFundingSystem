@@ -20,17 +20,19 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @EnableGlobalMethodSecurity(prePostEnabled=true)
 public class CrowdfundingSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     @Override
     protected void configure(AuthenticationManagerBuilder builder) throws Exception {
 
           //	测试使用
-		builder
+/*		builder
 			.inMemoryAuthentication()
 			.withUser("xixi")
 			.password("12323")
-			.roles("king");
-
+			.roles("king");*/
+        builder.userDetailsService(userDetailsService);
     }
 
     @Override
