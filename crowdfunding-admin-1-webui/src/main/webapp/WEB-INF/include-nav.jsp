@@ -25,7 +25,7 @@
 							<li><a href="#"><i class="glyphicon glyphicon-comment"></i>
 									消息</a></li>
 							<li class="divider"></li>
-							<li><a href="admin/security/do/logout.html"><i
+							<li><a href="AuthorityControl/admin/security/do/logout.html"><i
 									class="glyphicon glyphicon-off"></i> 退出系统</a></li>
 						</ul>
 					</div>
@@ -42,3 +42,4 @@
 		</div>
 	</div>
 </nav>
+

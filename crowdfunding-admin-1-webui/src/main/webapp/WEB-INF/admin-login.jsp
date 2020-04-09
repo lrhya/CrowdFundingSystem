@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="keys" content="">
 <meta name="author" content="">
-<title>❤汇聚点滴的力量，成就非凡的伟业❤</title>
+<title>RBAC权限控制平台</title>
 <base href="http://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/"/>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">

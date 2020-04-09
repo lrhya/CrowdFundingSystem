@@ -175,6 +175,7 @@
                                 <th width="30"><input id="summaryBox" type="checkbox"></th>
                                 <th>账号</th>
                                 <th>名称</th>
+                                <th>部门</th>
                                 <th>邮箱地址</th>
                                 <th width="100">操作</th>
                             </tr>
@@ -193,6 +194,7 @@
                                         <td><input adminId="${admin.id }" class="itemBox" type="checkbox"></td>
                                         <td>${admin.loginAcct }</td>
                                         <td>${admin.userName }</td>
+                                        <td>${admin.createTime }</td>
                                         <td>${admin.email }</td>
                                         <td>
                                             <a href="assign/to/assign/role/page.html?adminId=${admin.id }&pageNum=${requestScope['PAGE-INFO'].pageNum}"

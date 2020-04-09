@@ -56,6 +56,15 @@
                                     placeholder="请输入用户昵称"/>
                         </div>
                         <div class="form-group">
+                            <label for="exampleInputDepart">所属部门</label>
+                            <input
+                                    type="text"
+                                    name="createTime"
+                                    class="form-control"
+                                    id="exampleInputDepart"
+                                    placeholder="请输入邮箱地址"/>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleInputEmail1">邮箱地址</label>
                             <input
                                     type="email"

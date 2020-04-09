@@ -49,6 +49,10 @@
                             <form:input path="userName" cssClass="form-control"/>
                         </div>
                         <div class="form-group">
+                            <label for="exampleInputPassword1">所属部门</label>
+                            <form:input path="createTime" cssClass="form-control"/>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleInputEmail1">邮箱地址</label>
                             <form:input path="email" cssClass="form-control"/>
                         </div>

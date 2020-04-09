@@ -13,7 +13,7 @@ public class PortalHandler {
 
     @RequestMapping("/index")
     public String showIndex(){
-        return "index-page";
+        return "admin-login";
     }
 
 }

@@ -234,8 +234,8 @@
                         "url":"role/update/role.json",
                         "type":"post",
                         "data":{
-                            "id":window.roleId,
-                            "nameame":roleName
+                            "tId": window.roleId,
+                            "tName": roleName
                         },
                         "dataType":"json",
                         "success":function(response){
