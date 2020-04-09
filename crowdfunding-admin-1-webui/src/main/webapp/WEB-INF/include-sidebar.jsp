@@ -13,7 +13,7 @@
 							class="glyphicon glyphicon-user"></i> 职员信息管理</a></li>
 					<li style="height: 30px;"><a href="role/to/page.html"><i
 							class="glyphicon glyphicon-king"></i> 系统角色管理</a></li>
-					<li style="height: 30px;"><a href=""><i
+					<li style="height: 30px;"><a href="depart/to/page.html"><i
 							class="glyphicon glyphicon-king"></i> 系统部门管理</a></li>
 					<li style="height: 30px;"><a href="menu/to/page.html"><i
 							class="glyphicon glyphicon-random"></i> 系统课程管理</a></li>
